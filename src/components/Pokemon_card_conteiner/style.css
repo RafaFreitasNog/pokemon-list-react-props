@@ -1,0 +1,8 @@
+#conteiner {
+    background-color: #3a3b3c;
+    margin: 30px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-wrap: wrap;
+}

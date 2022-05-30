@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import PokemonCard from "./components/Pokemon_card";
+import PokemonsConteiner from "./components/Pokemon_card_conteiner";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
       
-      <PokemonCard img_url='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png'/>
+      <Header/>
+      <PokemonsConteiner/>
 
     </div>
   );

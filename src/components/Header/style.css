@@ -1,0 +1,15 @@
+#header {
+    background-color: #242526;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.txt {
+    color: #e4e6eb;
+}
