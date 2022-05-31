@@ -8,8 +8,8 @@ function showMessage() {
 function PokemonCard(props) {
     return (
         <Fragment>
-            <div onClick={showMessage} className="card">
-                <img src={props.img_url}></img>
+            <div onClick={showMessage} className='card'>
+                <img src={props.img_url} className="pokemonImg"></img>
             </div>
         </Fragment>
     )
