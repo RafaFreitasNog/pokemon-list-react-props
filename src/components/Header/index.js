@@ -6,7 +6,7 @@ function Header(props) {
         <Fragment>
             <div id="header">
                 <h3 className="txt">MENU</h3>
-                <h1 className="txt">POKEMONS REACT APP</h1>
+                <h1 className="txt">PokeAPP</h1>
                 <h3 className="txt">+INFO</h3>
             </div>
         </Fragment>

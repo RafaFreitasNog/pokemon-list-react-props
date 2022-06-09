@@ -1,17 +1,10 @@
 .card {
     height: 150px;
     width: 150px;
-    margin: 30px;
+    margin: 15px;
     border-radius: 5px;
-    background-color: #242526
-}
-
-.redCard {
-    height: 150px;
-    width: 150px;
-    margin: 30px;
-    border-radius: 5px;
-    background-color: red;
+    /*background-color: #3a3b3c;*/
+    background-color: rgb(68, 186, 97);
 }
 
 .pokemonImg {

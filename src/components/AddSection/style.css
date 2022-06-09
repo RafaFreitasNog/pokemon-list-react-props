@@ -1,0 +1,36 @@
+#addPokeConteiner {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#addInput {
+    height: 60px;
+    padding-left: 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    background-color: #e6e6e6;
+    
+    font-size: 16px;
+}
+
+#addButton {
+    height: 60px;
+    margin-left: 30px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: #c30c7a;
+
+    font-weight: 700;
+    color: #e6e6e6;
+
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+
+#addButton:hover {
+    filter: brightness(0.8);
+}
