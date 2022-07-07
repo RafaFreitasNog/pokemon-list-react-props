@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import PokemonCard from "../Pokemon_card";
-import PokemonCardTest from "../../Pokemon_card_test";
+import PokemonCardTest from "../Pokemon_card_test";
 import "./style.css"
 
 
