@@ -14,7 +14,6 @@ function PokemonsConteiner(props) {
         .then(data => {
             response = data
         })
-        console.log(response)
         const newPokemon = {
             name: response.name,
             imgUrl: response.sprites.front_default,
@@ -23,18 +22,16 @@ function PokemonsConteiner(props) {
     }
     return (
         <Fragment>
-            <div id = "pokeCardsConteiner">
+            <div id="pokeCardsConteiner">
                 {pokeArray.map((element)=>
                     <PokemonCard img_url= {element.imgUrl} />
                     )}
             </div>
-            <div id="searchMessageDiv">
-                <h1 id="searchMessageTxt">search for {searchingPoke}</h1>
-                <AddPokemonSection 
-                setSearchingPoke={setSearchingPoke}
-                handleAddPokemons={handleAddPokemons}
-                />
-            </div>
+            
+            <AddPokemonSection 
+            setSearchingPoke={setSearchingPoke}
+            handleAddPokemons={handleAddPokemons}
+            />
         </Fragment>
     )
 }

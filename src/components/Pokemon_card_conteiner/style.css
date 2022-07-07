@@ -1,8 +1,10 @@
 #pokeCardsConteiner {
-    background-color: rgb(68, 186, 97);
-    /* background-image: url('../../imgs/grassTile.png');*/
+    background-color: rgb(186, 68, 68);
+    background-image: url('../../imgs/grassTile.png');
+    background-repeat: repeat;
     margin: 30px;
     border-radius: 5px;
+    min-height: 222px;
 
     display: flex;
     flex-wrap: wrap;
@@ -11,11 +13,4 @@
 #searchMessageDiv {
     display: flex;
     flex-direction: column;
-}
-
-#searchMessageTxt {
-    align-self: center;
-    font-size: 20px;
-    color: #e6e6e6;
-    font-weight: 700;
 }

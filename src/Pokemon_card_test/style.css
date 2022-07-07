@@ -1,12 +1,11 @@
-.card {
+#cardTest {
     height: 192px;
     width: 192px;
-    margin: 15px;
     border-radius: 5px;
     /*background-color: #3a3b3c;*/
-    /*background-color: rgb(68, 186, 97);*/
+    background-color: rgb(160, 160, 160);
 }
 
-.pokemonImg {
+#pokemonImgTest {
     width: 100%;
 }
